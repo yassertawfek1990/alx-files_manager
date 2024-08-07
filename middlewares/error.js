@@ -1,9 +1,7 @@
-/* eslint-disable no-unused-vars */
+/* erjhhbl lkj eklwrng kje klkejln lker k */
 import { Request, Response, NextFunction } from 'express';
 
-/**
- * Represents an error in this API.
- */
+/*jewrkn kjnkjn wekjlrrn gkjln wekljr n*/
 export class APIError extends Error {
   constructor(code, message) {
     super();
@@ -13,11 +11,7 @@ export class APIError extends Error {
 }
 
 /**
- * Applies Basic authentication to a route.
- * @param {Error} err The error object.
- * @param {Request} req The Express request object.
- * @param {Response} res The Express response object.
- * @param {NextFunction} next The Express next function.
+ * Aerv lern lvnlekrn vlker nqrlkvqernl
  */
 export const errorResponse = (err, req, res, next) => {
   const defaultMsg = `Failed to process ${req.url}`;
