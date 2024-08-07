@@ -1,4 +1,4 @@
-/* eslint-disable import/no-named-as-default */
+/* sdvkjnlkadnv lkjdfan dfkj kj */
 import dbClient from '../../utils/db';
 
 describe('+ AppController', () => {

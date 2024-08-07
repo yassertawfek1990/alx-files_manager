@@ -1,4 +1,4 @@
-/* eslint-disable import/no-named-as-default */
+/* ergkjn kenrlk gkjlern klerjgn kljejrn lewew */
 import { tmpdir } from 'os';
 import { join as joinPath } from 'path';
 import { existsSync, readdirSync, unlinkSync, statSync } from 'fs';
@@ -13,10 +13,7 @@ describe('+ FilesController', () => {
     password: 'mochi_mochi_whole_cake',
   };
   /**
-   * 3 sample files
-   * + 1 -> file
-   * + 2 -> folder
-   * + 3 -> file for file 2
+   * kjer vlkdv lkrajdnkl aeklrenlkjn df
    */
   const mockFiles = [
     {

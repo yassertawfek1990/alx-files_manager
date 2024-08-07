@@ -1,4 +1,5 @@
-/* eslint-disable import/no-named-as-default */
+/*
+ * dfvm; f;dlbmklslk df m  k*/
 import dbClient from '../../utils/db';
 
 describe('+ DBClient utility', () => {

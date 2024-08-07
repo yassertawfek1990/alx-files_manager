@@ -1,4 +1,4 @@
-/* eslint-disable import/no-named-as-default */
+/* dsfbkjnl jdskjb nlkjndfsflkjb nnkdsjlf nkdsmbl sf */
 import dbClient from '../../utils/db';
 
 describe('+ AuthController', () => {

@@ -1,5 +1,4 @@
-/* eslint-disable import/no-named-as-default */
-/* eslint-disable no-unused-vars */
+/* edfjn kdf njlkdfd */
 import sha1 from 'sha1';
 import { Request } from 'express';
 import mongoDBCore from 'mongodb/lib/core';
@@ -7,9 +6,7 @@ import dbClient from './db';
 import redisClient from './redis';
 
 /**
- * Fetches the user from the Authorization header in the given request object.
- * @param {Request} req The Express request object.
- * @returns {Promise<{_id: ObjectId, email: string, password: string}>}
+ * Fe,m.,df .df fdfdject.
  */
 export const getUserFromAuthorization = async (req) => {
   const authorization = req.headers.authorization || null;
@@ -35,10 +32,7 @@ export const getUserFromAuthorization = async (req) => {
 };
 
 /**
- * Fetches the user from the X-Token header in the given request object.
- * @param {Request} req The Express request object.
- * @returns {Promise<{_id: ObjectId, email: string, password: string}>}
- */
+ * Fetnd kfkjnklnds lfk nkjnk lkj fj */
 export const getUserFromXToken = async (req) => {
   const token = req.headers['x-token'];
 

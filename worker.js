@@ -1,4 +1,4 @@
-/* eslint-disable import/no-named-as-default */
+/* dcd ddc dc */
 import { writeFile } from 'fs';
 import { promisify } from 'util';
 import Queue from 'bull/lib/queue';
@@ -12,11 +12,8 @@ const fileQueue = new Queue('thumbnail generation');
 const userQueue = new Queue('email sending');
 
 /**
- * Generates the thumbnail of an image with a given width size.
- * @param {String} filePath The location of the original file.
- * @param {number} size The width of the thumbnail.
- * @returns {Promise<void>}
- */
+ * sdl;,;ds sd  klsmds
+ * */
 const generateThumbnail = async (filePath, size) => {
   const buffer = await imgThumbnail(filePath, { width: size });
   console.log(`Generating file: ${filePath}, size: ${size}`);
